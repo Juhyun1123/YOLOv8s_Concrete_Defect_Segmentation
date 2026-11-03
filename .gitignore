@@ -1,0 +1,27 @@
+# Project-local Python environment and caches
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local datasets and dataset inspection files
+/Data/images/
+/Data/labels/
+/Data/_dataset_match_check/
+*.cache
+
+# Downloaded model weights and generated results
+*.pt
+/samples9.png
+/runs/
+
+# Local editor, operating-system, and environment files
+/.idea/
+/.vscode/*
+!/.vscode/settings.json
+!/.vscode/extensions.json
+.DS_Store
+Thumbs.db
+.env
+.env.*
