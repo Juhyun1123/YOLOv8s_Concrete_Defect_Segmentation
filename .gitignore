@@ -9,11 +9,17 @@ __pycache__/
 /Data/images/
 /Data/labels/
 /Data/_dataset_match_check/
+/dataset_split/
+/dataset_split_clean/
+/.dataset_split_clean-*/
+/Annotations/
 *.cache
 
 # Downloaded model weights and generated results
 *.pt
+!/models/*/best.pt
 /samples9.png
+/curve.png
 /runs/
 
 # Local editor, operating-system, and environment files

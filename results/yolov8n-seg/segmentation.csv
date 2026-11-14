@@ -1,0 +1,5 @@
+class,mask_ap50,mask_ap50_95
+all,0.202091,0.086799
+crack,0.202997,0.060566
+efflorescence,0.000000,0.000000
+spall_detach,0.403276,0.199830
